@@ -3,7 +3,7 @@ import tableau from 'tableau-api';
 
 class Display extends Component {
     initTableau(){
-        const vizUrl = "https://public.tableau.com/views/TESLATWEETSENTIMENTANALYSIS/Dashboard1?:display_count=y&:origin=viz_share_link&:embed=true";
+        const vizUrl = "https://public.tableau.com/views/TESLATWEETSENTIMENTANALYSIS/Dashboard1?:display_count=y&:origin=viz_share_link";
         //options
         const options = {
             hideTabs:true,
